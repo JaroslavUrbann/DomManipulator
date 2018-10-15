@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>DOM manipulátor</title>
+	<meta charset="utf-8" />
+    <link href="styl.css" type="text/css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.2.0.min.js"></script>
+    <script src="Scripts/JavaScript.js"></script>
+</head>
+<body>
+  <h1>Evidence vkladů</h1>
+  <section id="katalog">
+      <fieldset>
+            <legend>Katalog</legend>
+            <article id="clearfix">
+                <p>Jan Kos</p>
+                <p>Alois Pučalík</p>
+                <p>Genadij Kloubek</p>
+                <p>Anastázie Rupertová</p>
+                <p>Michael Kiško</p>
+                <p>Dobromil Retig</p>
+            </article>
+      </fieldset>
+  </section>
+  
+  <section id="vstupy">
+        <fieldset>
+            <legend>Žáci ve třídě</legend>
+            <select id="student">
+                <option value="-">vyber žáka</option>
+                <option>Jan Novák</option>
+            </select>
+            <input id="input" name="amount" type="number" placeholder="částka v korunách" />
+            <input id="button" type="button" name="btnInsert" value="Vložit" />
+        </fieldset>
+  </section>
+  
+  <section id="vystupy">
+        <table>
+            <thead>
+                <tr>
+                    <th>Jméno</th>
+                    <th>Částka</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">celkem <span id="celkem">0</span> Kč</td>
+                </tr>
+            </tfoot>
+        </table>
+</section>
+    <script src="Scripts/JS.js"></script>
+</body>
+</html>

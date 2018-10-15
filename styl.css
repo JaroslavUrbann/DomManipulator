@@ -1,0 +1,29 @@
+#katalog article > p  {
+    background-color: darkslateblue;
+    float: left;
+    width: 160px;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    line-height: 22pt;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#vystupy table {
+    margin-left: auto;
+    margin-right:auto;
+    border-collapse: collapse;
+}
+
+#vystupy table td, #vystupy table th{
+    border: 1px solid black;
+    padding: 5px;
+    min-width: 100px;
+} 
